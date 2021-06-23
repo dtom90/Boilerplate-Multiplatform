@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		639AF5422682C40500FD453D /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639AF5412682C40500FD453D /* Tests_iOS.swift */; };
+		639AF54D2682C40500FD453D /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639AF54C2682C40500FD453D /* Tests_macOS.swift */; };
+		639AF54F2682C40500FD453D /* Boilerplate_Multiplatform.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 639AF5232682C40300FD453D /* Boilerplate_Multiplatform.xcdatamodeld */; };
+		639AF5502682C40500FD453D /* Boilerplate_Multiplatform.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 639AF5232682C40300FD453D /* Boilerplate_Multiplatform.xcdatamodeld */; };
+		639AF5512682C40500FD453D /* Boilerplate_MultiplatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639AF5252682C40300FD453D /* Boilerplate_MultiplatformApp.swift */; };
+		639AF5522682C40500FD453D /* Boilerplate_MultiplatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639AF5252682C40300FD453D /* Boilerplate_MultiplatformApp.swift */; };
+		639AF5532682C40500FD453D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639AF5262682C40300FD453D /* ContentView.swift */; };
+		639AF5542682C40500FD453D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639AF5262682C40300FD453D /* ContentView.swift */; };
+		639AF5552682C40500FD453D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639AF5272682C40300FD453D /* Persistence.swift */; };
+		639AF5562682C40500FD453D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639AF5272682C40300FD453D /* Persistence.swift */; };
+		639AF5572682C40500FD453D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 639AF5282682C40500FD453D /* Assets.xcassets */; };
+		639AF5582682C40500FD453D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 639AF5282682C40500FD453D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		639AF53E2682C40500FD453D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 639AF51E2682C40200FD453D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 639AF52C2682C40500FD453D;
+			remoteInfo = "Boilerplate Multiplatform (iOS)";
+		};
+		639AF5492682C40500FD453D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 639AF51E2682C40200FD453D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 639AF5342682C40500FD453D;
+			remoteInfo = "Boilerplate Multiplatform (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		639AF5242682C40300FD453D /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
+		639AF5252682C40300FD453D /* Boilerplate_MultiplatformApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boilerplate_MultiplatformApp.swift; sourceTree = "<group>"; };
+		639AF5262682C40300FD453D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		639AF5272682C40300FD453D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		639AF5282682C40500FD453D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		639AF52D2682C40500FD453D /* Boilerplate Multiplatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Boilerplate Multiplatform.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		639AF5302682C40500FD453D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		639AF5352682C40500FD453D /* Boilerplate Multiplatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Boilerplate Multiplatform.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		639AF5372682C40500FD453D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		639AF5382682C40500FD453D /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		639AF53D2682C40500FD453D /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		639AF5412682C40500FD453D /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		639AF5432682C40500FD453D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		639AF5482682C40500FD453D /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		639AF54C2682C40500FD453D /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		639AF54E2682C40500FD453D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		639AF52A2682C40500FD453D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639AF5322682C40500FD453D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639AF53A2682C40500FD453D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639AF5452682C40500FD453D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		639AF51D2682C40200FD453D = {
+			isa = PBXGroup;
+			children = (
+				639AF5222682C40300FD453D /* Shared */,
+				639AF52F2682C40500FD453D /* iOS */,
+				639AF5362682C40500FD453D /* macOS */,
+				639AF5402682C40500FD453D /* Tests iOS */,
+				639AF54B2682C40500FD453D /* Tests macOS */,
+				639AF52E2682C40500FD453D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		639AF5222682C40300FD453D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				639AF5252682C40300FD453D /* Boilerplate_MultiplatformApp.swift */,
+				639AF5262682C40300FD453D /* ContentView.swift */,
+				639AF5272682C40300FD453D /* Persistence.swift */,
+				639AF5282682C40500FD453D /* Assets.xcassets */,
+				639AF5232682C40300FD453D /* Boilerplate_Multiplatform.xcdatamodeld */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		639AF52E2682C40500FD453D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				639AF52D2682C40500FD453D /* Boilerplate Multiplatform.app */,
+				639AF5352682C40500FD453D /* Boilerplate Multiplatform.app */,
+				639AF53D2682C40500FD453D /* Tests iOS.xctest */,
+				639AF5482682C40500FD453D /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		639AF52F2682C40500FD453D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				639AF5302682C40500FD453D /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		639AF5362682C40500FD453D /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				639AF5372682C40500FD453D /* Info.plist */,
+				639AF5382682C40500FD453D /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		639AF5402682C40500FD453D /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				639AF5412682C40500FD453D /* Tests_iOS.swift */,
+				639AF5432682C40500FD453D /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		639AF54B2682C40500FD453D /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				639AF54C2682C40500FD453D /* Tests_macOS.swift */,
+				639AF54E2682C40500FD453D /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		639AF52C2682C40500FD453D /* Boilerplate Multiplatform (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 639AF55B2682C40500FD453D /* Build configuration list for PBXNativeTarget "Boilerplate Multiplatform (iOS)" */;
+			buildPhases = (
+				639AF5292682C40500FD453D /* Sources */,
+				639AF52A2682C40500FD453D /* Frameworks */,
+				639AF52B2682C40500FD453D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Boilerplate Multiplatform (iOS)";
+			productName = "Boilerplate Multiplatform (iOS)";
+			productReference = 639AF52D2682C40500FD453D /* Boilerplate Multiplatform.app */;
+			productType = "com.apple.product-type.application";
+		};
+		639AF5342682C40500FD453D /* Boilerplate Multiplatform (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 639AF55E2682C40500FD453D /* Build configuration list for PBXNativeTarget "Boilerplate Multiplatform (macOS)" */;
+			buildPhases = (
+				639AF5312682C40500FD453D /* Sources */,
+				639AF5322682C40500FD453D /* Frameworks */,
+				639AF5332682C40500FD453D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Boilerplate Multiplatform (macOS)";
+			productName = "Boilerplate Multiplatform (macOS)";
+			productReference = 639AF5352682C40500FD453D /* Boilerplate Multiplatform.app */;
+			productType = "com.apple.product-type.application";
+		};
+		639AF53C2682C40500FD453D /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 639AF5612682C40500FD453D /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				639AF5392682C40500FD453D /* Sources */,
+				639AF53A2682C40500FD453D /* Frameworks */,
+				639AF53B2682C40500FD453D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				639AF53F2682C40500FD453D /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 639AF53D2682C40500FD453D /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		639AF5472682C40500FD453D /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 639AF5642682C40500FD453D /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				639AF5442682C40500FD453D /* Sources */,
+				639AF5452682C40500FD453D /* Frameworks */,
+				639AF5462682C40500FD453D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				639AF54A2682C40500FD453D /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 639AF5482682C40500FD453D /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		639AF51E2682C40200FD453D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					639AF52C2682C40500FD453D = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					639AF5342682C40500FD453D = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					639AF53C2682C40500FD453D = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 639AF52C2682C40500FD453D;
+					};
+					639AF5472682C40500FD453D = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 639AF5342682C40500FD453D;
+					};
+				};
+			};
+			buildConfigurationList = 639AF5212682C40200FD453D /* Build configuration list for PBXProject "Boilerplate Multiplatform" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 639AF51D2682C40200FD453D;
+			productRefGroup = 639AF52E2682C40500FD453D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				639AF52C2682C40500FD453D /* Boilerplate Multiplatform (iOS) */,
+				639AF5342682C40500FD453D /* Boilerplate Multiplatform (macOS) */,
+				639AF53C2682C40500FD453D /* Tests iOS */,
+				639AF5472682C40500FD453D /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		639AF52B2682C40500FD453D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639AF5572682C40500FD453D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639AF5332682C40500FD453D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639AF5582682C40500FD453D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639AF53B2682C40500FD453D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639AF5462682C40500FD453D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		639AF5292682C40500FD453D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639AF5512682C40500FD453D /* Boilerplate_MultiplatformApp.swift in Sources */,
+				639AF5552682C40500FD453D /* Persistence.swift in Sources */,
+				639AF54F2682C40500FD453D /* Boilerplate_Multiplatform.xcdatamodeld in Sources */,
+				639AF5532682C40500FD453D /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639AF5312682C40500FD453D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639AF5522682C40500FD453D /* Boilerplate_MultiplatformApp.swift in Sources */,
+				639AF5562682C40500FD453D /* Persistence.swift in Sources */,
+				639AF5502682C40500FD453D /* Boilerplate_Multiplatform.xcdatamodeld in Sources */,
+				639AF5542682C40500FD453D /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639AF5392682C40500FD453D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639AF5422682C40500FD453D /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639AF5442682C40500FD453D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639AF54D2682C40500FD453D /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		639AF53F2682C40500FD453D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 639AF52C2682C40500FD453D /* Boilerplate Multiplatform (iOS) */;
+			targetProxy = 639AF53E2682C40500FD453D /* PBXContainerItemProxy */;
+		};
+		639AF54A2682C40500FD453D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 639AF5342682C40500FD453D /* Boilerplate Multiplatform (macOS) */;
+			targetProxy = 639AF5492682C40500FD453D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		639AF5592682C40500FD453D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		639AF55A2682C40500FD453D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		639AF55C2682C40500FD453D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LL2Y7X52Y6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.davidthomason.Boilerplate-Multiplatform";
+				PRODUCT_NAME = "Boilerplate Multiplatform";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		639AF55D2682C40500FD453D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LL2Y7X52Y6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.davidthomason.Boilerplate-Multiplatform";
+				PRODUCT_NAME = "Boilerplate Multiplatform";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		639AF55F2682C40500FD453D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LL2Y7X52Y6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.davidthomason.Boilerplate-Multiplatform";
+				PRODUCT_NAME = "Boilerplate Multiplatform";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		639AF5602682C40500FD453D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LL2Y7X52Y6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.davidthomason.Boilerplate-Multiplatform";
+				PRODUCT_NAME = "Boilerplate Multiplatform";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		639AF5622682C40500FD453D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LL2Y7X52Y6;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.davidthomason.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Boilerplate Multiplatform (iOS)";
+			};
+			name = Debug;
+		};
+		639AF5632682C40500FD453D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LL2Y7X52Y6;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.davidthomason.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Boilerplate Multiplatform (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		639AF5652682C40500FD453D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LL2Y7X52Y6;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.davidthomason.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Boilerplate Multiplatform (macOS)";
+			};
+			name = Debug;
+		};
+		639AF5662682C40500FD453D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LL2Y7X52Y6;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.davidthomason.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Boilerplate Multiplatform (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		639AF5212682C40200FD453D /* Build configuration list for PBXProject "Boilerplate Multiplatform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639AF5592682C40500FD453D /* Debug */,
+				639AF55A2682C40500FD453D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		639AF55B2682C40500FD453D /* Build configuration list for PBXNativeTarget "Boilerplate Multiplatform (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639AF55C2682C40500FD453D /* Debug */,
+				639AF55D2682C40500FD453D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		639AF55E2682C40500FD453D /* Build configuration list for PBXNativeTarget "Boilerplate Multiplatform (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639AF55F2682C40500FD453D /* Debug */,
+				639AF5602682C40500FD453D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		639AF5612682C40500FD453D /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639AF5622682C40500FD453D /* Debug */,
+				639AF5632682C40500FD453D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		639AF5642682C40500FD453D /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639AF5652682C40500FD453D /* Debug */,
+				639AF5662682C40500FD453D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		639AF5232682C40300FD453D /* Boilerplate_Multiplatform.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				639AF5242682C40300FD453D /* Shared.xcdatamodel */,
+			);
+			currentVersion = 639AF5242682C40300FD453D /* Shared.xcdatamodel */;
+			path = Boilerplate_Multiplatform.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 639AF51E2682C40200FD453D /* Project object */;
+}
